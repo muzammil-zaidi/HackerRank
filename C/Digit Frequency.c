@@ -2,7 +2,7 @@
 #include <string.h>
 
 int main() {
-    char str[1000];  // Declare a string with a large enough size
+    char str[1000];
     int freq[10] = {0};  // Initialize an array to store digit frequencies
 
     scanf("%s", str);  // Read the input string
