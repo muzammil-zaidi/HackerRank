@@ -3,8 +3,7 @@
 
 int main() {
     char str[1000];
-    int freq[10] = {0};  // Initialize an array to store digit frequencies
-
+    int freq[10] = {0};
     scanf("%s", str);  // Read the input string
 
     // Traverse the string and count digit occurrences
