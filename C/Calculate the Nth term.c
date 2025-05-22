@@ -8,7 +8,6 @@ if (n == 1) return a;
 if (n == 2) return b;
 if (n == 3) return c;
 
-// Recursive call
 return find_nth_term(n - 1, a, b, c) + find_nth_term(n - 2, a, b, c) + find_nth_term(n - 3, a, b, c);
 }
 
