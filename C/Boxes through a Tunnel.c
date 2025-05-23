@@ -8,7 +8,6 @@ typedef struct {
     int height;
 } box;
 
-// Function to calculate the volume of a box
 int get_volume(box b) {
     return b.length * b.width * b.height;
 }
