@@ -2,7 +2,6 @@
 #include<stdlib.h>
 
 void update(int *a,int *b) {
-    // Complete this function
     int sum=*a;
     int sub=*b;
     *a=sum+sub;
