@@ -4,7 +4,7 @@
 int main() {
     char str[1000];
     int freq[10] = {0};
-    scanf("%s", str);  // Read the input string
+    scanf("%s", str);
 
     // Traverse the string and count digit occurrences
     for (int i = 0; i < strlen(str); i++) {
