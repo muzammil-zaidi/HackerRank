@@ -11,7 +11,7 @@ struct triangle
 
 typedef struct triangle triangle;
 double calculate_area(triangle tr) {
-    double p = (tr.a + tr.b + tr.c) / 2.0; // Semi-perimeter
+    double p = (tr.a + tr.b + tr.c) / 2.0;
     return sqrt(p * (p - tr.a) * (p - tr.b) * (p - tr.c)); // Area
 }
 void sort_by_area(triangle* tr, int n) {
