@@ -17,7 +17,6 @@ double calculate_area(triangle tr) {
 void sort_by_area(triangle* tr, int n) {
     for (int i = 0; i < n - 1; i++) {
         for (int j = 0; j < n - i - 1; j++) {
-            // Calculate areas of adjacent triangles
             double area1 = calculate_area(tr[j]);
             double area2 = calculate_area(tr[j + 1]);
 
