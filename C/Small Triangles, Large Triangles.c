@@ -20,7 +20,6 @@ void sort_by_area(triangle* tr, int n) {
             double area1 = calculate_area(tr[j]);
             double area2 = calculate_area(tr[j + 1]);
 
-            // Swap if the first triangle has a larger area than the second
             if (area1 > area2) {
                 triangle temp = tr[j];
                 tr[j] = tr[j + 1];
