@@ -12,7 +12,6 @@ int main() {
         }
     }
 
-    // Print the frequencies
     for (int i = 0; i < 10; i++) {
         printf("%d ", freq[i]);
     }
